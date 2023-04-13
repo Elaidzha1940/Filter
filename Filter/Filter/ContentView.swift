@@ -11,7 +11,9 @@ struct ContentView: View {
     
     @State private var some  = false
     @State private var some1  = false
-
+    
+    @State var selectedDate: Date = Date()
+    
     var body: some View {
         
         VStack {
@@ -47,7 +49,7 @@ struct ContentView: View {
                     
                     HStack {
                         
-                        DatePicker(<#T##titleKey: LocalizedStringKey##LocalizedStringKey#>, selection: <#T##Binding<Date>#>)
+                        DatePicker("День", selection: $selectedDate)
                     }
                     
                     
