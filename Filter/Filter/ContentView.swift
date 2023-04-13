@@ -12,18 +12,36 @@ struct ContentView: View {
         
         VStack {
             HStack {
+                //Spacer()
+                
+                Button {
+                    //action
+                } label: {
+                    Text("back")
+                        .foregroundColor(.red)
+                }
+                
                 Spacer()
+
                 
                 Text("Фильтры")
                     .font(.title)
                     .foregroundColor(.black)
                 
                 Spacer()
+                Spacer()
             }
             .padding()
             
             Spacer()
             
+            HStack {
+                Text("Дата и время")
+                    .font(.title3)
+            }
+            .padding(.trailing, 250)
+            
+            Spacer()
         }
     }
 }
