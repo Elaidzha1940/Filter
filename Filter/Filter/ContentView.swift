@@ -23,23 +23,70 @@ struct ContentView: View {
                 
                 Spacer()
 
-                
                 Text("Фильтры")
                     .font(.title)
                     .foregroundColor(.black)
+                    .padding(.trailing, 30)
                 
-                Spacer()
                 Spacer()
             }
             .padding()
             
-            Spacer()
+            // Spacer()
             
-            HStack {
-                Text("Дата и время")
+            VStack {
+                
+                HStack {
+                    Text("Дата и время")
+                        .font(.title3)
+                        .fontWeight(.medium)
+                }
+                .padding(.trailing, 250)
+                .padding()
+            
+                HStack {
+                    Text("Расстояине")
+                        .font(.title3)
+                        .fontWeight(.medium)
+                }
+                .padding(.trailing, 265)
+                .padding()
+                
+                Text("Любое")
                     .font(.title3)
+                    .fontWeight(.regular)
+                    .padding(.trailing, 280)
+                    .padding()
+                
+                Text("Указать")
+                    .font(.title3)
+                    .fontWeight(.regular)
+                    .padding(.trailing, 270)
+                    .padding()
+                
+                
+                    HStack {
+                        Text("Формат занятия")
+                            .font(.title3)
+                            .fontWeight(.medium)
+                    }
+                    .padding(.trailing, 210)
+                    .padding()
+                    
+                    Text("Онлайн")
+                        .font(.title3)
+                        .fontWeight(.regular)
+                        .padding(.trailing, 280)
+                        .padding()
+                    
+                    Text("Личная встреча")
+                        .font(.title3)
+                        .fontWeight(.regular)
+                        .padding(.trailing, 200)
+                        .padding()
+                
+            
             }
-            .padding(.trailing, 250)
             
             Spacer()
         }
