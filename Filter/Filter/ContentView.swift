@@ -70,7 +70,7 @@ struct ContentView: View {
                             .font(.title3)
                             .fontWeight(.medium)
                     }
-                    .padding(.trailing, 210)
+                    .padding(.trailing, 215)
                     .padding()
                     
                     Text("Онлайн")
@@ -85,6 +85,21 @@ struct ContentView: View {
                         .padding(.trailing, 200)
                         .padding()
                 
+                HStack {
+                    Text("Рейтинг")
+                        .font(.title3)
+                        .fontWeight(.medium)
+                }
+                .padding(.trailing, 285)
+                .padding()
+                
+                Text("Показывать 4-5*")
+                    .font(.title3)
+                    .fontWeight(.regular)
+                    .padding(.trailing, 180)
+                    .padding()
+            
+            
             
             }
             
