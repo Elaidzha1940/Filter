@@ -45,6 +45,11 @@ struct ContentView: View {
                         .padding(.trailing, 250)
                         .padding()
                     
+                    HStack {
+                        
+                        DatePicker(<#T##titleKey: LocalizedStringKey##LocalizedStringKey#>, selection: <#T##Binding<Date>#>)
+                    }
+                    
                     
                     Text("Расстояине")
                         .font(.title3)
