@@ -16,16 +16,14 @@ struct ContentView: View {
         
         VStack {
             HStack {
-                //Spacer()
-                
+            
                 Button {
                     //action
                 } label: {
                     Text("back")
                         .foregroundColor(.red)
                 }
-                //.padding()
-                
+
                 Spacer()
                 
                 Text("Фильтры")
@@ -34,12 +32,10 @@ struct ContentView: View {
                     .padding(.trailing, 40)
                 
                 Spacer()
-                //Spacer()
+              
             }
             .padding()
-            
-            // Spacer()
-            
+        
             ScrollView {
                 VStack {
                     
@@ -121,35 +117,37 @@ struct ContentView: View {
                         
                     }
                     .padding()
+                    
+                    VStack {
+                        Button {
+                            print()
+                        } label: {
+                            Text("Сохранить")
+                                .frame(width: 400, height: 50)
+                                .background(Color.blue)
+                                .foregroundColor(.white)
+                                .cornerRadius(13)
+                            
+                        }
+                        .frame(height: 50)
+                        .padding()
+                        
+                        Button {
+                            print()
+                        } label: {
+                            Text("Сбросить фильтр")
+                                .frame(width: 400, height: 50)
+                                .foregroundColor(.blue)
+                                .cornerRadius(13)
+                            
+                        }
+                        .frame(height: 50)
+                        .padding()
+                    }
+
                 
                     Spacer()
                 }
-            }
-            VStack {
-                Button {
-                    print()
-                } label: {
-                    Text("Сохранить")
-                        .frame(width: 400, height: 50)
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(13)
-                    
-                }
-                .frame(height: 50)
-                .padding()
-                
-                Button {
-                    print()
-                } label: {
-                    Text("Сбросить фильтр")
-                        .frame(width: 400, height: 50)
-                        .foregroundColor(.blue)
-                        .cornerRadius(13)
-                    
-                }
-                .frame(height: 50)
-                .padding()
             }
         }
     }
