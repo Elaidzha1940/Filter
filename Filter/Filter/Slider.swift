@@ -21,7 +21,7 @@ struct SliderComponent1: View {
 
 struct SliderComponent1_Previews: PreviewProvider {
     static var previews: some View {
-            SliderComponent1()
+        SliderComponent1()
     }
 }
 
@@ -32,7 +32,7 @@ struct Slider1 : View {
     var totalWidth = UIScreen.main.bounds.width - 80
     
     var right1: String {
-            
+        
         let equal1 = self.width / self.totalWidth
         
         let km = Int(equal1 / 0.09)
@@ -46,7 +46,7 @@ struct Slider1 : View {
         let km = Int(equal1 / 0.09)
         return "\(km) км"
     }
-
+    
     var body: some View {
         
         VStack {
@@ -54,7 +54,7 @@ struct Slider1 : View {
                 Text("Расстояние от меня")
                     .font(.headline)
                     .fontWeight(.bold)
-                   
+                
                 Spacer()
                 
                 Text("\(right1) - \(left1)")
