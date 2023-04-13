@@ -50,7 +50,7 @@ struct ContentView: View {
                     HStack {
                         Spacer()
                         
-                        DatePicker("День", selection: $selectedDate)
+                        DatePicker("День Время", selection: $selectedDate)
                     }
                     .padding()
                     
