@@ -82,35 +82,36 @@ struct ContentView: View {
                         .padding(.trailing, 200)
                         .padding()
                     
+                    VStack {
+                        Text("Рейтинг")
+                            .font(.title3)
+                            .fontWeight(.medium)
+                            .padding(.trailing, 285)
+                            .padding()
+                        
+                        Text("Показывать 4-5*")
+                            .font(.title3)
+                            .fontWeight(.regular)
+                            .padding(.trailing, 180)
+                            .padding()
+                        
+                        
+                        Text("Акции")
+                            .font(.title3)
+                            .fontWeight(.medium)
+                            .padding(.trailing, 290)
+                            .padding()
+                        
+                        Text("Показывать 4-5*")
+                            .font(.title3)
+                            .fontWeight(.regular)
+                            .padding(.trailing, 180)
+                            .padding()
+                        
+                    }
                     
-                    Text("Рейтинг")
-                        .font(.title3)
-                        .fontWeight(.medium)
-                        .padding(.trailing, 285)
-                        .padding()
-                    
-                    Text("Показывать 4-5*")
-                        .font(.title3)
-                        .fontWeight(.regular)
-                        .padding(.trailing, 180)
-                        .padding()
-                    
-                    
-                    Text("Акции")
-                        .font(.title3)
-                        .fontWeight(.medium)
-                        .padding(.trailing, 290)
-                        .padding()
-                    
-                    Text("Показывать 4-5*")
-                        .font(.title3)
-                        .fontWeight(.regular)
-                        .padding(.trailing, 180)
-                        .padding()
-                    
+                    Spacer()
                 }
-                
-                Spacer()
             }
         }
     }
