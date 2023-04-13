@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var some  = false
+
     var body: some View {
         
         VStack {
@@ -89,12 +92,13 @@ struct ContentView: View {
                             .padding(.trailing, 285)
                             .padding()
                         
-                        Text("Показывать 4-5*")
-                            .font(.title3)
-                            .fontWeight(.regular)
-                            .padding(.trailing, 180)
-                            .padding()
-                        
+                        HStack {
+                            Toggle("Показывать 4-5*", isOn: $some)
+                                .font(.title3)
+                                .fontWeight(.regular)
+                                .padding(.trailing, 130)
+                                .padding()
+                        }
                         
                         Text("Акции")
                             .font(.title3)
@@ -102,10 +106,10 @@ struct ContentView: View {
                             .padding(.trailing, 290)
                             .padding()
                         
-                        Text("Показывать 4-5*")
+                        Text("Показывать только акции")
                             .font(.title3)
                             .fontWeight(.regular)
-                            .padding(.trailing, 180)
+                            .padding(.trailing, 110)
                             .padding()
                         
                     }
