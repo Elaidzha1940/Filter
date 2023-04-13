@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var some  = false
+    @State private var some1  = false
 
     var body: some View {
         
@@ -93,29 +94,62 @@ struct ContentView: View {
                             .padding()
                         
                         HStack {
-                            Toggle("Показывать 4-5*", isOn: $some)
+                            Toggle("Показывать только 4-5*", isOn: $some)
                                 .font(.title3)
                                 .fontWeight(.regular)
-                                .padding(.trailing, 130)
-                                .padding()
+                                .padding(.trailing, 140)
                         }
+                        .padding(.trailing, -140)
+                        .padding()
+                        .toggleStyle(SwitchToggleStyle(tint: Color.blue))
                         
                         Text("Акции")
                             .font(.title3)
                             .fontWeight(.medium)
-                            .padding(.trailing, 290)
+                            .padding(.trailing, 300)
                             .padding()
                         
-                        Text("Показывать только акции")
-                            .font(.title3)
-                            .fontWeight(.regular)
-                            .padding(.trailing, 110)
-                            .padding()
+                        HStack {
+                            Toggle("Показывать только 4-5*", isOn: $some1)
+                                .font(.title3)
+                                .fontWeight(.regular)
+                                .padding(.trailing, 140)
+                        }
+                        .padding(.trailing, -140)
+                        .padding()
+                        .toggleStyle(SwitchToggleStyle(tint: Color.blue))
                         
                     }
-                    
+                    .padding()
+                
                     Spacer()
                 }
+            }
+            VStack {
+                Button {
+                    print()
+                } label: {
+                    Text("Сохранить")
+                        .frame(width: 400, height: 50)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(13)
+                    
+                }
+                .frame(height: 50)
+                .padding()
+                
+                Button {
+                    print()
+                } label: {
+                    Text("Сбросить фильтр")
+                        .frame(width: 400, height: 50)
+                        .foregroundColor(.blue)
+                        .cornerRadius(13)
+                    
+                }
+                .frame(height: 50)
+                .padding()
             }
         }
     }
