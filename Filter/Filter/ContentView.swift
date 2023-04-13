@@ -20,58 +20,55 @@ struct ContentView: View {
                     Text("back")
                         .foregroundColor(.red)
                 }
+                //.padding()
                 
                 Spacer()
-
+                
                 Text("Фильтры")
                     .font(.title)
                     .foregroundColor(.black)
-                    .padding(.trailing, 30)
+                    .padding(.trailing, 40)
                 
                 Spacer()
+                //Spacer()
             }
             .padding()
             
             // Spacer()
             
-            VStack {
-                
-                HStack {
+            ScrollView {
+                VStack {
+                    
                     Text("Дата и время")
                         .font(.title3)
                         .fontWeight(.medium)
-                }
-                .padding(.trailing, 250)
-                .padding()
-            
-                HStack {
+                        .padding(.trailing, 250)
+                        .padding()
+                    
+                    
                     Text("Расстояине")
                         .font(.title3)
                         .fontWeight(.medium)
-                }
-                .padding(.trailing, 265)
-                .padding()
-                
-                Text("Любое")
-                    .font(.title3)
-                    .fontWeight(.regular)
-                    .padding(.trailing, 280)
-                    .padding()
-                
-                Text("Указать")
-                    .font(.title3)
-                    .fontWeight(.regular)
-                    .padding(.trailing, 270)
-                    .padding()
-                
-                
-                    HStack {
-                        Text("Формат занятия")
-                            .font(.title3)
-                            .fontWeight(.medium)
-                    }
-                    .padding(.trailing, 215)
-                    .padding()
+                        .padding(.trailing, 265)
+                        .padding()
+                    
+                    Text("Любое")
+                        .font(.title3)
+                        .fontWeight(.regular)
+                        .padding(.trailing, 280)
+                        .padding()
+                    
+                    Text("Указать")
+                        .font(.title3)
+                        .fontWeight(.regular)
+                        .padding(.trailing, 270)
+                        .padding()
+                    
+                    Text("Формат занятия")
+                        .font(.title3)
+                        .fontWeight(.medium)
+                        .padding(.trailing, 215)
+                        .padding()
                     
                     Text("Онлайн")
                         .font(.title3)
@@ -84,26 +81,37 @@ struct ContentView: View {
                         .fontWeight(.regular)
                         .padding(.trailing, 200)
                         .padding()
-                
-                HStack {
+                    
+                    
                     Text("Рейтинг")
                         .font(.title3)
                         .fontWeight(.medium)
+                        .padding(.trailing, 285)
+                        .padding()
+                    
+                    Text("Показывать 4-5*")
+                        .font(.title3)
+                        .fontWeight(.regular)
+                        .padding(.trailing, 180)
+                        .padding()
+                    
+                    
+                    Text("Акции")
+                        .font(.title3)
+                        .fontWeight(.medium)
+                        .padding(.trailing, 290)
+                        .padding()
+                    
+                    Text("Показывать 4-5*")
+                        .font(.title3)
+                        .fontWeight(.regular)
+                        .padding(.trailing, 180)
+                        .padding()
+                    
                 }
-                .padding(.trailing, 285)
-                .padding()
                 
-                Text("Показывать 4-5*")
-                    .font(.title3)
-                    .fontWeight(.regular)
-                    .padding(.trailing, 180)
-                    .padding()
-            
-            
-            
+                Spacer()
             }
-            
-            Spacer()
         }
     }
 }
