@@ -48,9 +48,11 @@ struct ContentView: View {
                         .padding()
                     
                     HStack {
+                        Spacer()
                         
                         DatePicker("День", selection: $selectedDate)
                     }
+                    .padding()
                     
                     
                     Text("Расстояине")
@@ -151,9 +153,7 @@ struct ContentView: View {
                         .frame(height: 50)
                         .padding()
                     }
-
-                
-                    Spacer()
+                    
                 }
             }
         }
