@@ -40,43 +40,43 @@ struct PersonalProfile: View {
                     Button {
                         print()
                     } label: {
+                        Text("Создание занятий")
+                            .frame(width: 400, height: 52)
+                            .background(Color.indigo)
+                            .foregroundColor(.white)
+                            .cornerRadius(13)
+                        
+                        Image("?")
+                    }
+                    
+                    Button {
+                        print()
+                    } label: {
+                        Text("Рабочий график")
+                            .frame(width: 400, height: 52)
+                            .background(Color.indigo)
+                            .foregroundColor(.white)
+                            .cornerRadius(13)
+                        
+                        Image("?")
+                    }
+                    
+                    Button {
+                        print()
+                    } label: {
+                        Text("Опыт")
+                            .frame(width: 400, height: 52)
+                            .background(Color.indigo)
+                            .foregroundColor(.white)
+                            .cornerRadius(13)
+                        
+                        Image("?")
+                    }
+                    
+                    Button {
+                        print()
+                    } label: {
                         Text("Галерея")
-                            .frame(width: 400, height: 52)
-                            .background(Color.indigo)
-                            .foregroundColor(.white)
-                            .cornerRadius(13)
-                        
-                        Image("?")
-                    }
-                    
-                    Button {
-                        print()
-                    } label: {
-                        Text("Уведомления")
-                            .frame(width: 400, height: 52)
-                            .background(Color.indigo)
-                            .foregroundColor(.white)
-                            .cornerRadius(13)
-                        
-                        Image("?")
-                    }
-                    
-                    Button {
-                        print()
-                    } label: {
-                        Text("Помощь")
-                            .frame(width: 400, height: 52)
-                            .background(Color.indigo)
-                            .foregroundColor(.white)
-                            .cornerRadius(13)
-                        
-                        Image("?")
-                    }
-                    
-                    Button {
-                        print()
-                    } label: {
-                        Text("Помощь")
                             .frame(width: 400, height: 52)
                             .background(Color.indigo)
                             .foregroundColor(.white)

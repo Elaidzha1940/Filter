@@ -19,7 +19,7 @@ struct SegmentedControlCm: View {
                         
                     }
                 } label: {
-                    Text("Запланированные")
+                    Text("Уроки")
                 }
                 .frame(minWidth: 0, maxWidth: .infinity)
                 
@@ -30,7 +30,7 @@ struct SegmentedControlCm: View {
                         selection = 1
                     }
                 } label: {
-                    Text("Архив")
+                    Text("Профиль")
                 }
                 .frame(minWidth: 0, maxWidth: .infinity)
                 
