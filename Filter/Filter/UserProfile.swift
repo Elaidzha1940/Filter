@@ -21,7 +21,15 @@ struct UserProfile: View {
             
             Spacer()
             
-            
+            HStack {
+                Circle()
+                    .frame(width: 75, height: 75)
+                    .foregroundColor(.blue)
+                
+                Text("Дмитрий Констинопольский")
+                    .font(.title3)
+                    .fontWeight(.medium)
+            }
         }
     }
 }
