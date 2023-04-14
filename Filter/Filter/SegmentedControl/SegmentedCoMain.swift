@@ -23,7 +23,7 @@ struct SegmentedControlCm: View {
                 }
                 .frame(minWidth: 0, maxWidth: .infinity)
                 
-                Spacer()
+                //Spacer()
                 
                 Button {
                     withAnimation(.easeIn(duration: 0.5)) {
@@ -40,16 +40,16 @@ struct SegmentedControlCm: View {
             
             // MARK: Separator
             Divider()
-                .background(.black.opacity(0.9))
+                .background(.black.opacity(0.5))
                 .blendMode(.overlay)
-                .shadow(color: .black.opacity(0.2), radius: 0, x: 0, y: 1)
+                .shadow(color: .black.opacity(0.6), radius: 0, x: 0, y: 1)
                 .blendMode(.overlay)
             
             // MARK: Underline
             HStack {
                 Divider()
                     .frame(width:
-                            UIScreen.main.bounds.width / 2, height: 6)
+                            UIScreen.main.bounds.width / 3, height: 4)
                     .background(Color.black)
                     .blendMode(.overlay)
             }

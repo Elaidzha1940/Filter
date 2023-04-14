@@ -9,90 +9,89 @@ import SwiftUI
 
 struct PersonalProfile: View {
     var body: some View {
-       
-       // NavigationView {
-            VStack {
-                HStack {
-                    VStack(alignment: .leading) {
-                        
-                        Button {
-                            //action
-                        } label: {
-                            Text("back")
-                                .foregroundColor(.red)
-                        }
-                        .padding()
-                        
-                        Text("Личный кабинет")
-                            .font(.title)
-                            .foregroundColor(.black)
-                    }
-                }
+        
+        // NavigationView {
+        VStack {
+            VStack(alignment: .listRowSeparatorLeading) {
                 
-                Spacer()
-                
-                SegmentedControlCmHome()
-                
-                Spacer()
-                
-                VStack(spacing: 12) {
-                    
-                    Button {
-                        print()
-                    } label: {
-                        Text("Создание занятий")
-                            .frame(width: 400, height: 52)
-                            .background(Color.indigo)
-                            .foregroundColor(.white)
-                            .cornerRadius(13)
-                        
-                        Image("?")
-                    }
-                    
-                    Button {
-                        print()
-                    } label: {
-                        Text("Рабочий график")
-                            .frame(width: 400, height: 52)
-                            .background(Color.indigo)
-                            .foregroundColor(.white)
-                            .cornerRadius(13)
-                        
-                        Image("?")
-                    }
-                    
-                    Button {
-                        print()
-                    } label: {
-                        Text("Опыт")
-                            .frame(width: 400, height: 52)
-                            .background(Color.indigo)
-                            .foregroundColor(.white)
-                            .cornerRadius(13)
-                        
-                        Image("?")
-                    }
-                    
-                    Button {
-                        print()
-                    } label: {
-                        Text("Галерея")
-                            .frame(width: 400, height: 52)
-                            .background(Color.indigo)
-                            .foregroundColor(.white)
-                            .cornerRadius(13)
-                        
-                        Image("?")
-                    }
+                Button {
+                    //action
+                } label: {
+                    Text("back")
+                        .foregroundColor(.red)
                 }
                 .padding()
                 
-                Spacer()
-                Spacer()
+                Text("Личный кабинет")
+                    .font(.title)
+                    .foregroundColor(.black)
             }
-               // .navigationTitle("Личный кабинет")
+            .padding(.trailing, 170)
+            
+            //Spacer()
+            
+            SegmentedControlCmHome()
+            
+           // Spacer()
+            
+            VStack(spacing: 12) {
+                
+                Button {
+                    print()
+                } label: {
+                    Text("Создание занятий")
+                        .frame(width: 400, height: 52)
+                        .background(Color.indigo)
+                        .foregroundColor(.white)
+                        .cornerRadius(13)
+                    
+                    Image("?")
+                }
+                
+                Button {
+                    print()
+                } label: {
+                    Text("Рабочий график")
+                        .frame(width: 400, height: 52)
+                        .background(Color.indigo)
+                        .foregroundColor(.white)
+                        .cornerRadius(13)
+                    
+                    Image("?")
+                }
+                
+                Button {
+                    print()
+                } label: {
+                    Text("Опыт")
+                        .frame(width: 400, height: 52)
+                        .background(Color.indigo)
+                        .foregroundColor(.white)
+                        .cornerRadius(13)
+                    
+                    Image("?")
+                }
+                
+                Button {
+                    print()
+                } label: {
+                    Text("Галерея")
+                        .frame(width: 400, height: 52)
+                        .background(Color.indigo)
+                        .foregroundColor(.white)
+                        .cornerRadius(13)
+                    
+                    Image("?")
+                }
+            }
+            .padding()
+            
+            Spacer()
+            Spacer()
         }
+        // .navigationTitle("Личный кабинет")
     }
+}
 
 struct PersonalProfile_Previews: PreviewProvider {
     static var previews: some View {
