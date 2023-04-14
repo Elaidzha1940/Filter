@@ -24,6 +24,8 @@ struct UserProfile: View {
                     .frame(width: 75, height: 75)
                     .foregroundColor(.blue)
                 
+                Image("?")
+                
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Дмитрий Констинопольский")
                         .font(.title3)
@@ -34,7 +36,7 @@ struct UserProfile: View {
                         .fontWeight(.regular)
                 }
                 
-                Image("")
+                Image("?")
             }
             
             Spacer()
@@ -99,6 +101,7 @@ struct UserProfile: View {
             }
             .padding()
             
+            Spacer()
             Spacer()
         }
     }
