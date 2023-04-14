@@ -9,13 +9,12 @@ import SwiftUI
 
 struct UserProfile: View {
     var body: some View {
-      
+        
         VStack {
-            
             Text("Профиль")
                 .font(.title)
                 .foregroundColor(.black)
-                //.padding(.trailing, 40)
+            //.padding(.trailing, 40)
             
             Divider()
             
@@ -40,6 +39,55 @@ struct UserProfile: View {
             }
             
             Spacer()
+            
+            VStack(spacing: 12) {
+                
+                Button {
+                    print()
+                } label: {
+                    Text("Галерея")
+                        .frame(width: 400, height: 52)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(13)
+                    
+                }
+                
+                Button {
+                    print()
+                } label: {
+                    Text("Уведомления")
+                        .frame(width: 400, height: 52)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(13)
+                    
+                }
+                
+                Button {
+                    print()
+                } label: {
+                    Text("Помощь")
+                        .frame(width: 400, height: 52)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(13)
+                    
+                }
+            }
+            Spacer()
+            
+            Button {
+                print()
+            } label: {
+                Text("Войти как преподаватель")
+                    .frame(width: 400, height: 48)
+                    .background(Color.indigo)
+                    .foregroundColor(.white)
+                    .cornerRadius(13)
+                
+            }
+            .padding()
         }
     }
 }
