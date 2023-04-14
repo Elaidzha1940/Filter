@@ -14,8 +14,7 @@ struct UserProfile: View {
             Text("Профиль")
                 .font(.title)
                 .foregroundColor(.black)
-            //.padding(.trailing, 40)
-            
+        
             Divider()
             
             Spacer()
@@ -74,6 +73,17 @@ struct UserProfile: View {
                         .cornerRadius(13)
                     
                 }
+                
+                Button {
+                    print()
+                } label: {
+                    Text("Выйти")
+                        .frame(width: 400, height: 50)
+                        .foregroundColor(.blue)
+                        .cornerRadius(13)
+                    
+                }
+                .padding()
             }
             Spacer()
             
@@ -88,6 +98,8 @@ struct UserProfile: View {
                 
             }
             .padding()
+            
+            Spacer()
         }
     }
 }
