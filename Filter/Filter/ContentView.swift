@@ -25,19 +25,20 @@ struct ContentView: View {
                     Text("back")
                         .foregroundColor(.red)
                 }
+                .padding()
 
                 Spacer()
                 
                 Text("Фильтры")
                     .font(.title)
                     .foregroundColor(.black)
-                    .padding(.trailing, 40)
-                
+                    .padding(.trailing, 65)
+            
                 Spacer()
               
             }
-            .padding()
-        
+            Divider()
+            
             ScrollView {
                 VStack {
                     

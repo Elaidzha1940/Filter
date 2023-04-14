@@ -12,6 +12,15 @@ struct UserProfile: View {
       
         VStack {
             
+            Text("Профиль")
+                .font(.title)
+                .foregroundColor(.black)
+                //.padding(.trailing, 40)
+            
+            Divider()
+            
+            Spacer()
+            
             
         }
     }
