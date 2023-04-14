@@ -62,12 +62,12 @@
 		E41A908F29E8054F007D7D7F /* Filter */ = {
 			isa = PBXGroup;
 			children = (
+				E4BD7E9529E97F7C00D1C9F5 /* Filter and Slider */,
 				E4BD7E8E29E97E1F00D1C9F5 /* SegmentedControl */,
 				E41A909029E8054F007D7D7F /* FilterApp.swift */,
-				E41A909229E8054F007D7D7F /* ContentView.swift */,
 				E4BD7E8A29E96F3300D1C9F5 /* UserProfile.swift */,
+				E41A909229E8054F007D7D7F /* ContentView.swift */,
 				E4BD7E8C29E97A2100D1C9F5 /* PersonalProfile.swift */,
-				E41A909F29E835FD007D7D7F /* Slider.swift */,
 				E41A909429E80550007D7D7F /* Assets.xcassets */,
 				E41A909629E80550007D7D7F /* Filter.entitlements */,
 				E41A909729E80550007D7D7F /* Preview Content */,
@@ -90,6 +90,14 @@
 				E4BD7E9329E97EA700D1C9F5 /* SegmentedCoChain.swift */,
 			);
 			path = SegmentedControl;
+			sourceTree = "<group>";
+		};
+		E4BD7E9529E97F7C00D1C9F5 /* Filter and Slider */ = {
+			isa = PBXGroup;
+			children = (
+				E41A909F29E835FD007D7D7F /* Slider.swift */,
+			);
+			path = "Filter and Slider";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

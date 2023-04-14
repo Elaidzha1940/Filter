@@ -31,8 +31,64 @@ struct PersonalProfile: View {
                 
                 Spacer()
                 
+                SegmentedControlCmHome()
                 
+                Spacer()
                 
+                VStack(spacing: 12) {
+                    
+                    Button {
+                        print()
+                    } label: {
+                        Text("Галерея")
+                            .frame(width: 400, height: 52)
+                            .background(Color.indigo)
+                            .foregroundColor(.white)
+                            .cornerRadius(13)
+                        
+                        Image("?")
+                    }
+                    
+                    Button {
+                        print()
+                    } label: {
+                        Text("Уведомления")
+                            .frame(width: 400, height: 52)
+                            .background(Color.indigo)
+                            .foregroundColor(.white)
+                            .cornerRadius(13)
+                        
+                        Image("?")
+                    }
+                    
+                    Button {
+                        print()
+                    } label: {
+                        Text("Помощь")
+                            .frame(width: 400, height: 52)
+                            .background(Color.indigo)
+                            .foregroundColor(.white)
+                            .cornerRadius(13)
+                        
+                        Image("?")
+                    }
+                    
+                    Button {
+                        print()
+                    } label: {
+                        Text("Помощь")
+                            .frame(width: 400, height: 52)
+                            .background(Color.indigo)
+                            .foregroundColor(.white)
+                            .cornerRadius(13)
+                        
+                        Image("?")
+                    }
+                }
+                .padding()
+                
+                Spacer()
+                Spacer()
             }
                // .navigationTitle("Личный кабинет")
         }
