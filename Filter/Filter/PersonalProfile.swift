@@ -12,8 +12,20 @@ struct PersonalProfile: View {
        
         VStack {
             
+            Button {
+                //action
+            } label: {
+                Text("back")
+                    .foregroundColor(.red)
+            }
+
+            Text("Профиль")
+                .font(.title)
+                .foregroundColor(.black)
             
         }
+        .padding(.leading)
+        .padding()
     }
 }
 
