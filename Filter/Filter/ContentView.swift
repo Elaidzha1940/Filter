@@ -31,6 +31,7 @@ struct ContentView: View {
                 
                 Text("Фильтры")
                     .font(.title)
+                    .fontWeight(.medium)
                     .foregroundColor(.black)
                     .padding(.trailing, 65)
             

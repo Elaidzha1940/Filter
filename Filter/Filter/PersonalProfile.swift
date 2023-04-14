@@ -10,22 +10,28 @@ import SwiftUI
 struct PersonalProfile: View {
     var body: some View {
        
-        VStack {
-            
-            Button {
-                //action
-            } label: {
-                Text("back")
-                    .foregroundColor(.red)
+        NavigationView {
+            VStack {
+                VStack {
+                    
+                    Button {
+                        //action
+                    } label: {
+                        Text("back")
+                            .foregroundColor(.red)
+                    }
+                    .padding()
+                    
+//                    Text("Личный кабинет")
+//                        .font(.title)
+//                        .foregroundColor(.black)
+//                    //.padding()
+                }
+                
+                Spacer()
             }
-
-            Text("Профиль")
-                .font(.title)
-                .foregroundColor(.black)
-            
+                .navigationTitle("Личный кабинет")
         }
-        .padding(.leading)
-        .padding()
     }
 }
 

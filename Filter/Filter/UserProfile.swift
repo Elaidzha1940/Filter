@@ -13,6 +13,7 @@ struct UserProfile: View {
         VStack {
             Text("Профиль")
                 .font(.title)
+                .fontWeight(.medium)
                 .foregroundColor(.black)
         
             Divider()
