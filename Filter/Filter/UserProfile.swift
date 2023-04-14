@@ -26,10 +26,20 @@ struct UserProfile: View {
                     .frame(width: 75, height: 75)
                     .foregroundColor(.blue)
                 
-                Text("Дмитрий Констинопольский")
-                    .font(.title3)
-                    .fontWeight(.medium)
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("Дмитрий Констинопольский")
+                        .font(.title3)
+                        .fontWeight(.medium)
+                    
+                    Text("8-909-345-00-00")
+                        .font(.title3)
+                        .fontWeight(.regular)
+                }
+                
+                Image("")
             }
+            
+            Spacer()
         }
     }
 }
