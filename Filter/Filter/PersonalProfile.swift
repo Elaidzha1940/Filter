@@ -10,30 +10,33 @@ import SwiftUI
 struct PersonalProfile: View {
     var body: some View {
        
-        NavigationView {
+       // NavigationView {
             VStack {
-                VStack {
-                    
-                    Button {
-                        //action
-                    } label: {
-                        Text("back")
-                            .foregroundColor(.red)
+                HStack {
+                    VStack(alignment: .leading) {
+                        
+                        Button {
+                            //action
+                        } label: {
+                            Text("back")
+                                .foregroundColor(.red)
+                        }
+                        .padding()
+                        
+                        Text("Личный кабинет")
+                            .font(.title)
+                            .foregroundColor(.black)
                     }
-                    .padding()
-                    
-//                    Text("Личный кабинет")
-//                        .font(.title)
-//                        .foregroundColor(.black)
-//                    //.padding()
                 }
                 
                 Spacer()
+                
+                
+                
             }
-                .navigationTitle("Личный кабинет")
+               // .navigationTitle("Личный кабинет")
         }
     }
-}
 
 struct PersonalProfile_Previews: PreviewProvider {
     static var previews: some View {
