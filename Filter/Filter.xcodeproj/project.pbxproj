@@ -13,6 +13,7 @@
 		E41A909929E80550007D7D7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41A909829E80550007D7D7F /* Preview Assets.xcassets */; };
 		E41A90A029E835FD007D7D7F /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41A909F29E835FD007D7D7F /* Slider.swift */; };
 		E4BD7E8B29E96F3300D1C9F5 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BD7E8A29E96F3300D1C9F5 /* UserProfile.swift */; };
+		E4BD7E8D29E97A2100D1C9F5 /* PersonalProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BD7E8C29E97A2100D1C9F5 /* PersonalProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E41A909829E80550007D7D7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E41A909F29E835FD007D7D7F /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
 		E4BD7E8A29E96F3300D1C9F5 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		E4BD7E8C29E97A2100D1C9F5 /* PersonalProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E41A909029E8054F007D7D7F /* FilterApp.swift */,
 				E41A909229E8054F007D7D7F /* ContentView.swift */,
 				E4BD7E8A29E96F3300D1C9F5 /* UserProfile.swift */,
+				E4BD7E8C29E97A2100D1C9F5 /* PersonalProfile.swift */,
 				E41A909F29E835FD007D7D7F /* Slider.swift */,
 				E41A909429E80550007D7D7F /* Assets.xcassets */,
 				E41A909629E80550007D7D7F /* Filter.entitlements */,
@@ -148,6 +151,7 @@
 				E41A909329E8054F007D7D7F /* ContentView.swift in Sources */,
 				E41A90A029E835FD007D7D7F /* Slider.swift in Sources */,
 				E4BD7E8B29E96F3300D1C9F5 /* UserProfile.swift in Sources */,
+				E4BD7E8D29E97A2100D1C9F5 /* PersonalProfile.swift in Sources */,
 				E41A909129E8054F007D7D7F /* FilterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

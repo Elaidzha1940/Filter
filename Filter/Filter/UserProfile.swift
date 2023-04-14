@@ -52,6 +52,7 @@ struct UserProfile: View {
                         .foregroundColor(.white)
                         .cornerRadius(13)
                     
+                    Image("?")
                 }
                 
                 Button {
@@ -63,6 +64,7 @@ struct UserProfile: View {
                         .foregroundColor(.white)
                         .cornerRadius(13)
                     
+                    Image("?")
                 }
                 
                 Button {
@@ -74,6 +76,7 @@ struct UserProfile: View {
                         .foregroundColor(.white)
                         .cornerRadius(13)
                     
+                    Image("?")
                 }
                 
                 Button {
