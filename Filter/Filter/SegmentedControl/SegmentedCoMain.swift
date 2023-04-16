@@ -21,7 +21,7 @@ struct SegmentedControlCm: View {
                 } label: {
                     Text("Уроки")
                 }
-                .frame(minWidth: 0, maxWidth: .infinity)
+                .frame(minWidth: 3, maxWidth: .infinity)
                 
                 //Spacer()
                 
@@ -40,16 +40,16 @@ struct SegmentedControlCm: View {
             
             // MARK: Separator
             Divider()
-                .background(.black.opacity(0.5))
+                .background(.black.opacity(0.6))
                 .blendMode(.overlay)
                 .shadow(color: .black.opacity(0.6), radius: 0, x: 0, y: 1)
-                .blendMode(.overlay)
+                //.blendMode(.overlay)
             
             // MARK: Underline
             HStack {
                 Divider()
                     .frame(width:
-                            UIScreen.main.bounds.width / 3, height: 4)
+                            UIScreen.main.bounds.width / 4, height: 3)
                     .background(Color.black)
                     .blendMode(.overlay)
             }
@@ -58,6 +58,7 @@ struct SegmentedControlCm: View {
         }
         .padding(.top, 25)
         .background(Color.indigo)
+        .opacity(0.6)
     }
 }
 
