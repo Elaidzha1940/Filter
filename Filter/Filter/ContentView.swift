@@ -140,7 +140,6 @@ struct ContentView: View {
                                 .cornerRadius(13)
                             
                         }
-                        .padding()
                         
                         Button {
                             print()
