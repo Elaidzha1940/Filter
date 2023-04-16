@@ -49,7 +49,7 @@ struct SegmentedControlCm: View {
             HStack {
                 Divider()
                     .frame(width:
-                            UIScreen.main.bounds.width / 4, height: 3)
+                            UIScreen.main.bounds.width / 2, height: 3)
                     .background(Color.black)
                     .blendMode(.overlay)
             }

@@ -14,8 +14,6 @@ struct SegmentedControlCmHome: View {
         HStack {
             SegmentedControlCm(selection: $selection)
         }
-        //.cornerRadius(13)
-        //.padding()
     }
 }
 
