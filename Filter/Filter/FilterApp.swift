@@ -11,7 +11,7 @@ import SwiftUI
 struct FilterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SegmentedP()
         }
     }
 }

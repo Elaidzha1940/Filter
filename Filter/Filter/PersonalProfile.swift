@@ -12,7 +12,7 @@ struct PersonalProfile: View {
         
         // NavigationView {
         VStack {
-            VStack(alignment: .listRowSeparatorLeading) {
+            VStack(alignment: .center) {
                 
                 Button {
                     //action
